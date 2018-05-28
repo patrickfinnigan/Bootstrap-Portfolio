@@ -1,0 +1,25 @@
+.navbar-brand {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0px;
+    padding-right: 30px;
+    clear: both;
+
+}
+
+.nav-item {
+    float: right;
+}
+
