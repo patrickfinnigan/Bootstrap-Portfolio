@@ -254,3 +254,33 @@ input[type=submit] {
     padding-right: 30px;
     margin-top: 0;
 }
+
+@media (min-width: 576px) {
+
+
+
+}
+
+@media (max-width: 768px) {
+    #mainbar {
+
+    }
+
+
+
+
+}
+
+@media (max-width: 992px) {
+    #sidebar {
+        visibility: collapse;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+}
