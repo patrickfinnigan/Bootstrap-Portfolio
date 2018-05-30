@@ -173,6 +173,10 @@ footer {
     margin: 15px 0 25px;
 }
 
+.work:hover {
+    opacity: 25;
+}
+
 .work:nth-child(even) {
     margin-right: 40px;
 }
@@ -196,6 +200,10 @@ footer {
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
+}
+
+.work img:hover {
+    opacity: 5;
 }
 
 #contact-form ul {
