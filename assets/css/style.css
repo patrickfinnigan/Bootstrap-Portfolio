@@ -17,6 +17,7 @@ body {
     max-width:960px;
     margin: 0 auto;
     clear: both;
+    
 }
 /*This part of the code dictates what every element within the "container" class will look like, on top of the "body" code. 
 In this part, it says that
@@ -165,11 +166,11 @@ footer {
 }
 
 .work {
-    width: 274px;
+    width: 250px;
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 0 25px;
+    margin: 15px 0 25px;
 }
 
 .work:nth-child(even) {
@@ -255,32 +256,27 @@ input[type=submit] {
     margin-top: 0;
 }
 
-@media (min-width: 576px) {
 
+@media (max-width: 990px) {
 
-
-}
-
-@media (max-width: 768px) {
-    #mainbar {
-
+    .work {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
-
-
+    .work:nth-child(even) {
+        margin-right: 8px;
+    }
 
 }
 
 @media (max-width: 992px) {
     #sidebar {
-        visibility: collapse;
+        visibility: hidden;
     }
 
-
-}
-
-@media (min-width: 1200px) {
-
-
+    #mainbar {
+        margin-bottom: 20px;
+    }
 
 }
